@@ -1,0 +1,31 @@
+.index-header {
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.index-header a {
+  border-radius: 0.3rem;
+  font-weight: bold;
+}
+
+.index-header .navbar-toggler {
+  filter: invert(1);
+}
+
+.h1-index {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.oscurecer-fondo {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+/*# sourceMappingURL=style.css.map */
