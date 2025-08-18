@@ -1,0 +1,37 @@
+@media screen and (min-width: 800px) {
+    .index-body {
+
+        .index-main {
+
+            p {
+                padding: 2rem;
+            }
+
+            .index-imagen-container {
+                max-width: 40rem;
+            }
+        }
+    }
+
+    .contacto-body {
+
+        .formulario-imagen {
+            flex-direction: row; 
+            align-items: flex-start; 
+            justify-content: center;
+            gap: 0.1rem;
+        }
+
+        .formulario-contacto {
+            flex: 1;
+            max-width: 500px;
+            align-self: flex-start;
+        }
+        
+        .contacto-imagen-container{
+            max-width: 40rem;
+            flex: 1;
+            align-self: flex-start
+        }
+    }
+}

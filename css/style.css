@@ -5,20 +5,110 @@
   background-position: center;
   position: relative;
 }
-
 .index-header a {
   border-radius: 0.3rem;
   font-weight: bold;
+  text-align: center;
 }
-
-.index-header .navbar-toggler {
-  filter: invert(1);
-}
-
-.h1-index {
+.index-header .h1-index {
   text-align: center;
   font-weight: bold;
   color: white;
+}
+
+.index-header .navbar-toggler,
+.contacto-header .navbar-toggler {
+  filter: invert(1);
+}
+
+.contacto-header {
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.contacto-header a {
+  border-radius: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.contacto-header .h1-contacto {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.index-main {
+  background-color: rgb(116, 4, 4);
+}
+.index-main p {
+  text-align: center;
+}
+.index-main .index-imagen-container {
+  max-width: 30rem;
+}
+.index-main .index-imagen-container img {
+  border-radius: 0.5rem;
+}
+.contacto-main .formulario-imagen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.contacto-main .formulario-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 500px;
+}
+.contacto-main .contacto-imagen-container {
+  max-width: 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.contacto-main .contacto-imagen-container img {
+  border-radius: 0.5rem;
+}
+.index-body,
+.historia-body,
+.contacto-body {
+  background-color: rgb(116, 4, 4);
+}
+
+@media screen and (min-width: 800px) {
+  .index-body .index-main p {
+    padding: 2rem;
+  }
+  .index-body .index-main .index-imagen-container {
+    max-width: 40rem;
+  }
+  .contacto-body .formulario-imagen {
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 0.1rem;
+  }
+  .contacto-body .formulario-contacto {
+    flex: 1;
+    max-width: 500px;
+    align-self: flex-start;
+  }
+  .contacto-body .contacto-imagen-container {
+    max-width: 40rem;
+    flex: 1;
+    align-self: flex-start;
+  }
+}
+.index-main h2, .contacto-main h2 {
+  text-decoration: underline;
+  text-align: center;
 }
 
 .oscurecer-fondo {

@@ -1,4 +1,8 @@
 @import "./layout/header";
+@import "./layout/main";
+@import "./layout/body";
+@import "./mq/mq";
+@import "./utilities/extends";
 
 .oscurecer-fondo {
     position: absolute;
