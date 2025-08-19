@@ -39,6 +39,46 @@
     }
 }
 
+.personajes-main {
+
+    h2 {
+        @extend %tituloSeccion;
+    }
+
+    .personaje-card{
+        max-width: 20rem;
+    }
+
+    img {
+        height: 10rem;
+    }
+
+    .blue-card{
+        background-color: rgba(2, 15, 90, 0.938);
+    }
+
+    .yellow-card {
+        background-color: rgba(184, 158, 16, 0.938);
+    }
+
+    .green-card {
+        background-color: rgba(6, 139, 24, 0.938);
+    }
+
+    .green2-card {
+        background-color: rgba(4, 70, 13, 0.938);
+    }
+
+    .purple-card {
+        background-color: rgba(122, 3, 158, 0.938);
+    }
+
+    .grey-card{
+        background-color: rgba(124, 122, 124, 0.938);
+    }
+        
+}
+
 .contacto-main {
     .formulario-imagen {
         display: flex;

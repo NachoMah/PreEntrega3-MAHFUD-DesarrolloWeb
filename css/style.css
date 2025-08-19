@@ -81,6 +81,31 @@
   border-radius: 0.5rem;
 }
 
+.personajes-main .personaje-card {
+  max-width: 20rem;
+}
+.personajes-main img {
+  height: 10rem;
+}
+.personajes-main .blue-card {
+  background-color: rgba(2, 15, 90, 0.938);
+}
+.personajes-main .yellow-card {
+  background-color: rgba(184, 158, 16, 0.938);
+}
+.personajes-main .green-card {
+  background-color: rgba(6, 139, 24, 0.938);
+}
+.personajes-main .green2-card {
+  background-color: rgba(4, 70, 13, 0.938);
+}
+.personajes-main .purple-card {
+  background-color: rgba(122, 3, 158, 0.938);
+}
+.personajes-main .grey-card {
+  background-color: rgba(124, 122, 124, 0.938);
+}
+
 .contacto-main .formulario-imagen {
   display: flex;
   flex-direction: column;
@@ -108,6 +133,7 @@
 }
 .index-body,
 .historia-body,
+.personajes-body,
 .contacto-body {
   background-color: rgb(116, 4, 4);
 }
@@ -139,7 +165,7 @@
     align-self: flex-start;
   }
 }
-.index-main h2, .historia-main h2, .contacto-main h2 {
+.index-main h2, .historia-main h2, .personajes-main h2, .contacto-main h2 {
   text-decoration: underline;
   text-align: center;
 }
