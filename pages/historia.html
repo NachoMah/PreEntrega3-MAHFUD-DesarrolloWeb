@@ -3,20 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="../css/style.css">
     <title>Historia de Marvel</title>
 </head>
 <body class="historia-body">
+    <header class="historia-header">
+        <div class="oscurecer-fondo">
+            <nav class="navbar navbar-expand-lg bg-dark position-fixed w-100">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-white bg-danger" href="#"> MARVEL </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./historia.html">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./personajes.html">Personajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="./eventosImportantes.html">Eventos importantes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="contacto.html">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
-    <header>
+            <section class="d-flex flex-column justify-content-center h-100 px-3"> 
+                <h1 class="h1-historia text-white text-center"> La historia de Marvel </h1>
+                <p class="text-white text-center">
+                    Veremos un poco sobre los orígenes de Marvel y su creador, Stan Lee. 
+                    Descubriremos cómo comenzó este universo lleno de héroes y villanos, 
+                    y cómo evolucionó hasta convertirse en el fenómeno global que conocemos hoy.
+                </p>
+            </section>
+        </div>
     </header>
 
-    <main>
+    <main class="historia-main text-white ">
+        <div class="d-flex flex-column align-items-center justify-content-center">
+            <section class="historia-imagen-container">
+                <section class=" mt-5 mb-5">
+                    <h2>Los orígenes de Marvel</h2>
+                    <p>
+                        Marvel nació en 1939 bajo el nombre de <strong>Timely Publications</strong>. 
+                        Sus primeras historietas comenzaron a captar la atención de los jóvenes gracias 
+                        a personajes innovadores como la Antorcha Humana original y Namor, el Hombre Submarino.
+                    </p>
+                    <img class="w-100" src="../img/comicAntorchaNamor.jpg" alt="Imagen de uno de los primeros comics de la Antorcha Humana y Namor bajo el nombre de Timely Publications.">
+                </section>
+
+                <section class="mb-5">
+                    <h2 >La era de Stan Lee</h2>
+                    <p>
+                        En los años 60, <strong>Stan Lee</strong>, junto a artistas como Jack Kirby y Steve Ditko, 
+                        revolucionó el mundo del cómic. Nacieron héroes icónicos como <em>Spider-Man, los 4 Fantásticos, Hulk, Thor</em> 
+                        y <em>Iron Man</em>. Lo innovador fue que estos personajes tenían problemas humanos, miedos y dudas, 
+                        lo que permitió que los lectores se identificaran con ellos.
+                    </p>
+                    <img class="w-100" src="../img/stanLee_JackKirby.jpg" alt="Imagen de Stan Lee y Jack Kirby jovenes">
+                </section>
+
+                <section class="mb-5">
+                    <h2>Expansión y evolución</h2>
+                    <p>
+                        A lo largo de las décadas, Marvel creció hasta convertirse en un universo lleno de historias conectadas. 
+                        Sus cómics dieron paso a series animadas y, más tarde, al <strong>Marvel Cinematic Universe (MCU)</strong>, 
+                        que se convirtió en uno de los fenómenos más grandes de la historia del cine.
+                    </p>
+                    <img class="w-100" src="../img/marvelStudiosLogo.jpg" alt="Imagen del logo de Marvel Studios">
+                </section>
+
+                <section>
+                    <h2>Marvel en la actualidad</h2>
+                    <p>
+                        Hoy en día, Marvel no solo domina el mundo de los cómics y el cine, sino también los videojuegos, 
+                        las series de streaming y el merchandising. Su universo sigue creciendo, cautivando a millones de fans 
+                        alrededor del mundo.
+                    </p>
+                    <img class="w-100" src="../img/merchandisingMarvel.jpg" alt="Imagen de merchandisng de Marvel">
+                </section>
+
+            </section> 
+        </div>
     </main>
 
     <footer class="general-footer bg-dark h-100 mt-4">
         <p class="m-0 text-center text-white p-3">© 2025 MARVEL. Todos los derechos reservados.</p>
     </footer>
 
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
 </body>
 </html>

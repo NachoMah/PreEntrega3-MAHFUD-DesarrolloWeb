@@ -18,12 +18,32 @@
     }
 }
 
-.index-header, 
+.index-header,
+.historia-header, 
 .contacto-header {
   .navbar-toggler {
     filter: invert(1); 
   }
+}
 
+.historia-header {
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  a {
+      border-radius: 0.3rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+  .h1-historia{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
 }
 
 .contacto-header {

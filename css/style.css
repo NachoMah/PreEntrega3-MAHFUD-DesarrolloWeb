@@ -17,8 +17,27 @@
 }
 
 .index-header .navbar-toggler,
+.historia-header .navbar-toggler,
 .contacto-header .navbar-toggler {
   filter: invert(1);
+}
+
+.historia-header {
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.historia-header a {
+  border-radius: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.historia-header .h1-historia {
+  text-align: center;
+  font-weight: bold;
+  color: white;
 }
 
 .contacto-header {
@@ -51,6 +70,17 @@
 .index-main .index-imagen-container img {
   border-radius: 0.5rem;
 }
+.historia-main p {
+  text-align: center;
+  padding: 1rem;
+}
+.historia-main .historia-imagen-container {
+  max-width: 30rem;
+}
+.historia-main .historia-imagen-container img {
+  border-radius: 0.5rem;
+}
+
 .contacto-main .formulario-imagen {
   display: flex;
   flex-direction: column;
@@ -89,6 +119,9 @@
   .index-body .index-main .index-imagen-container {
     max-width: 40rem;
   }
+  .historia-body .historia-main .historia-imagen-container {
+    max-width: 40rem;
+  }
   .contacto-body .formulario-imagen {
     flex-direction: row;
     align-items: flex-start;
@@ -106,7 +139,7 @@
     align-self: flex-start;
   }
 }
-.index-main h2, .contacto-main h2 {
+.index-main h2, .historia-main h2, .contacto-main h2 {
   text-decoration: underline;
   text-align: center;
 }

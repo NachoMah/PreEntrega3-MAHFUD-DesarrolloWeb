@@ -18,6 +18,27 @@
     }
 }
 
+.historia-main{
+    p{
+        text-align: center;
+        padding: 1rem;
+    }
+
+    h2 {
+        @extend %tituloSeccion 
+    }
+
+    .historia-imagen-container {
+
+        max-width: 30rem; 
+
+        img {
+            border-radius: 0.5rem;
+        }
+
+    }
+}
+
 .contacto-main {
     .formulario-imagen {
         display: flex;
