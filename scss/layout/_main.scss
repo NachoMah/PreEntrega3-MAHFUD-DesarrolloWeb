@@ -79,6 +79,53 @@
         
 }
 
+.eventoImportante-main {
+
+    h2 {
+        @extend %tituloSeccion;
+    }
+
+    .evento-indice-card {
+        max-width: 20rem;
+    }
+
+    .evento-card {
+        background-color: #1c1c1c;
+        border: 0.125rem solid #ff0000; 
+        border-radius: 0.625rem;        
+        padding: 1.25rem;               
+        max-width: 50rem;               
+        width: 90%;                     
+        box-shadow: 0 0.25rem 0.5rem rgba(0,0,0,0.6);
+    }
+    
+    .blue-card{
+        background-color: rgba(2, 15, 90, 0.938);
+    }
+
+    .purple-card {
+        background-color: rgba(122, 3, 158, 0.938);
+    }
+
+    .green2-card {
+        background-color: rgba(4, 70, 13, 0.938);
+    }
+
+    .red-card {
+        background-color: rgba(207, 6, 6, 0.938);
+    }
+
+    .grey-card {
+        background-color: rgba(124, 122, 124, 0.938);
+    }
+
+    .enlace-evento{
+        @extend %enlace
+    }
+        
+}
+
+
 .contacto-main {
     .formulario-imagen {
         display: flex;

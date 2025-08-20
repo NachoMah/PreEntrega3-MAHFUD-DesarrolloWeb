@@ -18,6 +18,8 @@
 
 .index-header .navbar-toggler,
 .historia-header .navbar-toggler,
+.personajes-header .navbar-toggler,
+.eventosImportantes-header .navbar-toggler,
 .contacto-header .navbar-toggler {
   filter: invert(1);
 }
@@ -35,6 +37,42 @@
   text-align: center;
 }
 .historia-header .h1-historia {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.personajes-header {
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.personajes-header a {
+  border-radius: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.personajes-header .h1-personajes {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+}
+
+.eventosImportantes-header {
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.eventosImportantes-header a {
+  border-radius: 0.3rem;
+  font-weight: bold;
+  text-align: center;
+}
+.eventosImportantes-header .h1-eventosImportantes {
   text-align: center;
   font-weight: bold;
   color: white;
@@ -106,6 +144,33 @@
   background-color: rgba(124, 122, 124, 0.938);
 }
 
+.eventoImportante-main .evento-indice-card {
+  max-width: 20rem;
+}
+.eventoImportante-main .evento-card {
+  background-color: #1c1c1c;
+  border: 0.125rem solid #ff0000;
+  border-radius: 0.625rem;
+  padding: 1.25rem;
+  max-width: 50rem;
+  width: 90%;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.6);
+}
+.eventoImportante-main .blue-card {
+  background-color: rgba(2, 15, 90, 0.938);
+}
+.eventoImportante-main .purple-card {
+  background-color: rgba(122, 3, 158, 0.938);
+}
+.eventoImportante-main .green2-card {
+  background-color: rgba(4, 70, 13, 0.938);
+}
+.eventoImportante-main .red-card {
+  background-color: rgba(207, 6, 6, 0.938);
+}
+.eventoImportante-main .grey-card {
+  background-color: rgba(124, 122, 124, 0.938);
+}
 .contacto-main .formulario-imagen {
   display: flex;
   flex-direction: column;
@@ -134,6 +199,7 @@
 .index-body,
 .historia-body,
 .personajes-body,
+.eventosImportantes-body,
 .contacto-body {
   background-color: rgb(116, 4, 4);
 }
@@ -147,6 +213,10 @@
   }
   .historia-body .historia-main .historia-imagen-container {
     max-width: 40rem;
+  }
+  .eventosImportantes-body .eventoImportante-main .evento-card {
+    max-width: 70rem;
+    padding: 1.5rem;
   }
   .contacto-body .formulario-imagen {
     flex-direction: row;
@@ -165,9 +235,23 @@
     align-self: flex-start;
   }
 }
-.index-main h2, .historia-main h2, .personajes-main h2, .contacto-main h2 {
+.index-main h2, .historia-main h2, .personajes-main h2, .eventoImportante-main h2, .contacto-main h2 {
   text-decoration: underline;
   text-align: center;
+}
+
+.eventoImportante-main .enlace-evento {
+  background-color: gold;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  color: black;
+  text-decoration: none;
+  transition: transform 1s;
+}
+.eventoImportante-main .enlace-evento:hover {
+  transform: scale(1.2);
 }
 
 .oscurecer-fondo {

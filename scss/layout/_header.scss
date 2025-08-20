@@ -20,6 +20,8 @@
 
 .index-header,
 .historia-header, 
+.personajes-header,
+.eventosImportantes-header,
 .contacto-header {
   .navbar-toggler {
     filter: invert(1); 
@@ -45,6 +47,47 @@
     color: white;
   }
 }
+
+.personajes-header {
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  a {
+      border-radius: 0.3rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+  .h1-personajes{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+}
+
+.eventosImportantes-header{
+  background-image: url(../img/variosPersonajes.jpg);
+  height: 95vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+
+  a {
+      border-radius: 0.3rem;
+      font-weight: bold;
+      text-align: center;
+    }
+
+  .h1-eventosImportantes{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
+}
+
 
 .contacto-header {
   background-image: url(../img/variosPersonajes.jpg);
