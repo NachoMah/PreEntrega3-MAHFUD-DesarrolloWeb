@@ -184,6 +184,15 @@
 .eventoImportante-main .grey-card {
   background-color: rgba(124, 122, 124, 0.938);
 }
+.eventoImportante-main .black-card {
+  background-color: rgba(24, 24, 24, 0.938);
+}
+.eventoImportante-main .rose-card {
+  background-color: rgba(201, 8, 114, 0.938);
+}
+.eventoImportante-main .orange-card {
+  background-color: rgba(204, 127, 12, 0.938);
+}
 .contacto-main .formulario-imagen {
   display: flex;
   flex-direction: column;

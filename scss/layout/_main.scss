@@ -137,6 +137,18 @@
         background-color: rgba(124, 122, 124, 0.938);
     }
 
+    .black-card {
+        background-color: rgba(24, 24, 24, 0.938);
+    }
+
+    .rose-card {
+        background-color: rgba(201, 8, 114, 0.938);
+    }
+
+    .orange-card {
+        background-color: rgba(204, 127, 12, 0.938);
+    }
+
     .enlace-evento{
         @extend %enlace
     }
