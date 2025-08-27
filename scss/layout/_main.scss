@@ -45,7 +45,8 @@
         @extend %tituloSeccion;
     }
 
-    .personaje-card{
+    .personaje-card,
+    .equipo-card{
         max-width: 20rem;
     }
 
@@ -76,7 +77,24 @@
     .grey-card{
         background-color: rgba(124, 122, 124, 0.938);
     }
-        
+
+    .red-card {
+        background-color: rgba(207, 6, 6, 0.938);
+    }
+
+    .black-card {
+        background-color: rgba(24, 24, 24, 0.938);
+    }
+
+    .orange-card {
+        background-color: rgba(204, 127, 12, 0.938);
+    }
+
+    .light-blue-card {
+        background-color: rgba(8, 123, 190, 0.938);
+    }
+
+    
 }
 
 .eventoImportante-main {
