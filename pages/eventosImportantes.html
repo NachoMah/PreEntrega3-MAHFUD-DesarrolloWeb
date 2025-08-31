@@ -11,7 +11,7 @@
 <body class="eventosImportantes-body">
     <header class="eventosImportantes-header">
         <div class="oscurecer-fondo">
-            <nav class="navbar navbar-expand-lg bg-dark position-fixed w-100">
+            <nav class="navbar navbar-expand-lg bg-dark position-fixed w-100 z-3">
                 <div class="container-fluid">
                     <a class="navbar-brand text-white bg-danger" href="#"> MARVEL </a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -57,49 +57,238 @@
         <div class="d-flex justify-content-center align-items-stretch gap-3 flex-wrap">
 
             <section class="evento-indice-card grey-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/secretWarsPortada.jpg" alt="Imagen de una de las portadas del comic Secret Wars">
+
+                <div id="carouselSecretWars" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/secretWarsPortada.jpg" alt="Imagen de una de las portadas del comic Secret Wars">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/secretWarsPortada2.jpg" alt="Imagen de otra de las portadas del comic Secret Wars con heroes enfrenatdose">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/secretWarsPortada3.jpg" alt="Imagen de otra de las portadas del comic Secret Wars con heroes divididos">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/secretWarsPortada4.jpg" alt="Imagen de otra del titulo de la proxima pelicula Avengers: Secret Wars">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSecretWars" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSecretWars" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <h3 class="text-white text-center mt-2">Secret Wars</h3>
                 <a class="enlace-evento" href="#secret-wars">Ir al evento</a>
             </section>
 
             <section class="evento-indice-card red-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/civilWarPortada.jpg" alt="Imagen de una de las portadas del comic Civil War">
+                <div id="carouselCivilWar" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/civilWarPortada.jpg" alt="Imagen de una de las portadas del comic Civil War">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/civilWarPortada2.jpg" alt="Imagen de otra de las portadas del comic Civil War">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/ironManVsCapitan.jpg" alt="Imagen de Iron Man vs Capitan America">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/posterPeliculaCivilWar.jpg" alt="Imagen del poster de la pelicula Capitan America: Civil War">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselCivilWar" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselCivilWar" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
                 <h3 class="text-white text-center mt-2">Civil War</h3>
                 <a class="enlace-evento" href="#civil-war">Ir al evento</a>
             </section>
 
             <section class="evento-indice-card green2-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/secretInvasionPortada.jpg" alt="Imagen de una de las portadas del comic Secret Invasion">
+
+                <div id="carouselSecretInvasion" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/secretInvasionPortada.jpg" alt="Imagen de una de las portadas del comic Secret Invasion">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/secretInvasionPortada2.jpg" alt="Imagen de otra de las portadas del comic Secret Invasion">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/superSkrull.jpg" alt="Imagen del Super Skrull">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/posterSereSecretInvasion.jpg" alt="Imagen del poster de la serie Secret Invasion">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselSecretInvasion" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselSecretInvasion" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <h3 class="text-white text-center mt-2">Secret Invasion</h3>
                 <a class="enlace-evento" href="#secret-invasion">Ir al evento</a>
             </section>
 
             <section class="evento-indice-card purple-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/infintyGauntletPortada.jpg" alt="Imagen de una de las portadas del comic Infinty Gauntlet">
+
+                
+                <div id="carouselInfinityGauntlet" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/infintyGauntletPortada.jpg" alt="Imagen de una de las portadas del comic Infinty Gauntlet">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/infintyGauntletPortada2.jpg" alt="Imagen de otra de las portadas del comic Infinty Gauntlet">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/nebulaGuantelete.jpg" alt="Imagen de Nebula usando el Guantelete del Infinito">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/posterInfinityWar.jpg" alt="Imagen del poster de la pelicula Avengers: Infinity War (la cual hace referencia al comic)">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselInfinityGauntlet" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselInfinityGauntlet" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <h3 class="text-white text-center mt-2">Infinity Gauntlet</h3>
                 <a class="enlace-evento" href="#infinity-gauntlet">Ir al evento</a>
             </section>
 
             <section class="evento-indice-card blue-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/avenegrsVsXmenPortada.jpg" alt="Imagen de una de las portadas del comic Avengers vs X-Men">
+
+                <div id="carouselAvengersvsXmen" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/avenegrsVsXmenPortada.jpg" alt="Imagen de una de las portadas del comic Avengers vs X-Men">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/avengersVsXMenPortada2.jpg" alt="Imagen de otra de las portadas del comic Avengers vs X-Men">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/xmenPoderFenix.jpg" alt="Imagen de algunos X-Men usnado el poder del Phoenix">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAvengersvsXmen" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAvengersvsXmen" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <h3 class="text-white text-center mt-2">Avengers vs X-Men</h3>
                 <a class="enlace-evento" href="#avengers-vs-xmen">Ir al evento</a>
             </section>
 
             <section class="evento-indice-card black-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/daysFuturePast.jpg" alt="Imagen de una de las portadas del comic X-Men: Days of Future Past">
+
+                <div id="carouselDaysofFuturePast" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/daysFuturePast.jpg" alt="Imagen de una de las portadas del comic X-Men: Days of Future Past">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/daysFuturePast2.jpg" alt="Imagen de otra de las portadas del comic X-Men: Days of Future Past">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/posterDaysFuturePast.jpg" alt="Imagen de uno de los posters de la pelicula X-Men: Days of Future Past">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselDaysofFuturePast" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselDaysofFuturePast" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <h3 class="text-white text-center mt-2">Days of Future Past</h3>
                 <a class="enlace-evento" href="#days-future-past">Ir al evento</a>
             </section>
 
             <section class="evento-indice-card rose-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/houseOfM.jpg" alt="Imagen de una de las portadas del comic House of M">
+
+                
+                <div id="carouselHouseOfM" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/houseOfM.jpg" alt="Imagen de una de las portadas del comic House of M">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/houseOfM2.jpg" alt="Imagen de otra de las portadas del comic House of M">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/scarletWitch.jpg" alt="Imagen de Scarlet Witch de los comics">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselHouseOfM" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselHouseOfM" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <h3 class="text-white text-center mt-2">House of M</h3>
                 <a class="enlace-evento" href="#house-of-m">Ir al evento</a>
             </section>
 
             <section class="evento-indice-card orange-card p-3 rounded d-flex flex-column align-items-center justify-content-center">
-                <img class="w-100" src="../img/annihilation.jpg" alt="Imagen de una de las portadas del comic Annihilation">
+
+                <div id="carouselAnnihilation" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="w-100" src="../img/annihilation.jpg" alt="Imagen de una de las portadas del comic Annihilation">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/annihilation2.webp" alt="Imagen de otra de las portadas del comic Annihilation">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="w-100" src="../img/annhilus.jpg" alt="Imagen del villano Annhilus de los comics">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselAnnihilation" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselAnnihilation" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
                 <h3 class="text-white text-center mt-2">Annihilation</h3>
                 <a class="enlace-evento" href="#annihilation">Ir al evento</a>
             </section>

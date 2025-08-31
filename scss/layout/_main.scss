@@ -16,6 +16,24 @@
     h2 {
         @extend %tituloSeccion 
     }
+
+    .html-indice-card {
+        max-width: 20rem;
+
+        img {
+            height: 10rem;
+        }
+
+        .indice-enlace{
+            @extend %enlace
+        }
+
+    }
+
+    .black2-card {
+        background-color: rgba(59, 58, 58, 0.938);
+    }
+
 }
 
 .historia-main{

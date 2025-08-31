@@ -108,6 +108,16 @@
 .index-main .index-imagen-container img {
   border-radius: 0.5rem;
 }
+.index-main .html-indice-card {
+  max-width: 20rem;
+}
+.index-main .html-indice-card img {
+  height: 10rem;
+}
+.index-main .black2-card {
+  background-color: rgba(59, 58, 58, 0.938);
+}
+
 .historia-main p {
   text-align: center;
   padding: 1rem;
@@ -262,7 +272,7 @@
   text-align: center;
 }
 
-.eventoImportante-main .enlace-evento {
+.index-main .html-indice-card .indice-enlace, .eventoImportante-main .enlace-evento {
   background-color: gold;
   border-radius: 0.5rem;
   font-weight: bold;
@@ -272,7 +282,7 @@
   text-decoration: none;
   transition: transform 1s;
 }
-.eventoImportante-main .enlace-evento:hover {
+.index-main .html-indice-card .indice-enlace:hover, .eventoImportante-main .enlace-evento:hover {
   transform: scale(1.2);
 }
 
